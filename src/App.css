@@ -1,17 +1,15 @@
 body {
   background-color: #313846;
-  color: #F1F2F3;
+  color: #f1f2f3;
 }
 
 /*CSS for Footer*/
 
 .footer {
-
 }
 
 .footer__hidden {
 }
-
 
 /*CSS for Header*/
 
@@ -24,7 +22,7 @@ body {
 }
 
 .logo {
-  font-family: "Yeseva One";
+  font-family: 'Yeseva One';
 }
 
 @media (min-width: 450px) {
@@ -40,11 +38,11 @@ body {
 
 .navbar a {
   text-decoration: none;
-  font-family: "Yeseva One";
+  font-family: 'Yeseva One';
   font-size: 19px;
   padding: 10px 15px;
   font-weight: 500;
-  color: #F1F2F3;
+  color: #f1f2f3;
 }
 
 .navbar a:hover {
@@ -55,6 +53,11 @@ body {
 
 .introduction {
   margin: 20px;
+
+  display: flex;
+  flex-direction: row;
+
+  gap: 20px;
 }
 
 @media (min-width: 450px) {
@@ -66,12 +69,33 @@ body {
 .introduction__text {
   background-color: #18191a;
   border-radius: 10px;
-  min-height: 500px;
+  min-height: 200px;
 }
 
-.introduction p{
+.introduction p {
   padding: 50px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 300;
+}
+
+.footer {
+  height: 10vh;
+  width: 100%;
+
+  background-color: #242526;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date-container {
+  padding: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.hidden {
+  display: hidden;
 }
